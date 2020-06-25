@@ -2,7 +2,6 @@ const { default: next } = require("next");
 
 import Link from "next/link";
 import fetch from "isomorphic-unfetch";
-import globalStyles from '../styles/global'
 import Layout from '../components/Layout'
 import { motion } from 'framer-motion'
 
@@ -85,9 +84,6 @@ const Product = (props) => (
                 </motion.div>
             </div>
         </Layout>
-        <style jsx global>
-            {globalStyles}
-        </style>
     </motion.div>
 );
 

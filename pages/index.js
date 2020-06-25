@@ -1,6 +1,5 @@
 import Link from "next/link";
 import fetch from "isomorphic-unfetch";
-import globalStyles from './styles/global'
 import Layout from './components/Layout'
 import { motion } from 'framer-motion'
 
@@ -72,9 +71,6 @@ const Index = (props) => (
                 ))}
             </motion.div>
         </Layout>
-        <style jsx global>
-            {globalStyles}
-        </style>
     </motion.div>
 );
 
